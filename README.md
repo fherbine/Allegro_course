@@ -10,18 +10,24 @@ C programs using Allegro lib.
 
 =========== SUM UP OF ALLEGRO'S FUNCTIONS USED =========
 
-1. Basics
+1. Basics (routine)
    - **allegro_init** : Initialisation of Allegro
      > See [here](http://liballeg.org/stabledocs/en/alleg000.html#allegro_init) for more infos.
 
    - **END_OF_MAIN** : Mark the end of a program using Allegro
      > See [here](http://liballeg.org/stabledocs/en/alleg000.html#END_OF_MAIN) for more infos.
 
+   - **install_keyboard** : Allow user to use his/her own keyboard to make a UI in your soft.
+     > See [here](http://liballeg.org/stabledocs/en/alleg006.html#install_keyboard) for more infos.
+
+   - **allegro_exit** : use to exit Allegro system in case of an issue in the program.
+     > See [here](http://liballeg.org/stabledocs/en/alleg000.html#allegro_exit) for more infos.
+
 2. Basic functions
    - **allegro_message** : Display a message in a popUp
      > See [here](http://liballeg.org/stabledocs/en/alleg000.html#allegro_message) for more infos.
 
-3. Allegro - basic graphical use
+3. Allegro - basic graphical use (routine)
    - **desktop_color_depth** : get the desktop color depth.
      > See [here](http://liballeg.org/stabledocs/en/alleg000.html#desktop_color_depth) for more infos.
 

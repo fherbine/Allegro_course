@@ -49,7 +49,7 @@ C programs using Allegro lib.
      > See [here](http://liballeg.org/stabledocs/en/alleg000.html#set_window_title) for more infos.
 
 6. External
-   - All basics drawing can be draw
+   - All basics drawing can be draw with simple functions. See [here](http://liballeg.org/stabledocs/en/alleg013.html).
 
 ================== DEFINES FROM ALLEGRO =================
 

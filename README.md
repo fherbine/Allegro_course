@@ -20,6 +20,9 @@ C programs using Allegro lib.
    - **install_keyboard** : Allow user to use his/her own keyboard to make a UI in your soft.
      > See [here](http://liballeg.org/stabledocs/en/alleg006.html#install_keyboard) for more infos.
 
+   - **install_mouse** : allow user to use his/her own mouse into our Allegro program
+     > See [here](http://liballeg.org/stabledocs/en/alleg004.html#install_mouse) for more infos. You should check this entire page for mouse doc.
+
    - **allegro_exit** : use to exit Allegro system in case of an issue in the program.
      > See [here](http://liballeg.org/stabledocs/en/alleg000.html#allegro_exit) for more infos.
 
@@ -40,6 +43,13 @@ C programs using Allegro lib.
 4. Allegro - UI
    - **readkey** : Read input key pressed from keyboard.
      > See [here](http://liballeg.org/stabledocs/en/alleg006.html#readkey) for more infos.
+
+5. Optionnal
+   - **set_window_title** : Set a title for the program window
+     > See [here](http://liballeg.org/stabledocs/en/alleg000.html#set_window_title) for more infos.
+
+6. External
+   - All basics drawing can be draw
 
 ================== DEFINES FROM ALLEGRO =================
 

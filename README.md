@@ -34,3 +34,8 @@ C programs using Allegro lib.
 4. Allegro - UI
    - **readkey** : Read input key pressed from keyboard.
      > See [here](http://liballeg.org/stabledocs/en/alleg006.html#readkey) for more infos.
+
+================== DEFINES FROM ALLEGRO =================
+
+- **GFX_AUTODETECT_WINDOWED** : Used in `set_gfx_mod()`, to access to graphical driver, to create a new window.
+  > See [here](http://liballeg.org/stabledocs/en/alleg037.html#GFX_*/Windows) for more infos

@@ -83,7 +83,7 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
     /// circle_move();
     /// hello_world("hello world");
-    hw2();
+    /// hw2();
     return 0;
 }
 END_OF_MAIN();

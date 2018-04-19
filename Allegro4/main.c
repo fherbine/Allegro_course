@@ -62,12 +62,27 @@ void    hello_world(char **input_text)
     }
 }
 
+void    hw2(void)
+{
+    BITMAP *buffer;
+
+    buffer = create_bitmap(SCREEN_W, SCREEN_H);
+    while(!key[KEY_ESC])
+    {
+        clear_bitmap(buffer);
+        textprintf(buffer, font, 50, 50, makecol(12, 120, 250), "Screen size: width -> %d, Height -> %d",
+                    SCREEN_W, SCREEN_H);
+        blit(buffer, screen, 0, 0, 0, 0, SCREEN_W, SCREEN_H);
+    }
+}
+
 int main(int argc, char **argv)
 {
     if (main_init() == -1)
         exit(EXIT_FAILURE);
     /// circle_move();
-    hello_world("hello world");
+    /// hello_world("hello world");
+    hw2();
     return 0;
 }
 END_OF_MAIN();

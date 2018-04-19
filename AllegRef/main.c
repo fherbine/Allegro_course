@@ -1,5 +1,6 @@
 #include <allegro.h>
 #include <stdlib.h>
+#include "ar_def.h"
 
 int     main_init(void)
 {
@@ -41,7 +42,7 @@ void    backgroundColor(int color)
 int main()
 {
     main_init();
-    backgroundColor(makecol(255, 255, 255));
+    backgroundColor(MAGENTA);
     while (!key[KEY_ENTER]);
     return 0;
 }

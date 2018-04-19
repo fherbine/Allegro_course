@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1524181264 source:c:\users\felix\desktop\cb\repo\allegro4\main.c
+	<allegro.h>
+	<stdlib.h>
+

@@ -70,6 +70,7 @@ void    hw2(void)
     while(!key[KEY_ESC])
     {
         clear_bitmap(buffer);
+        text_mode(makecol( 255, 255, 255)) ;
         textprintf(buffer, font, 50, 50, makecol(12, 120, 250), "Screen size: width -> %d, Height -> %d",
                     SCREEN_W, SCREEN_H);
         blit(buffer, screen, 0, 0, 0, 0, SCREEN_W, SCREEN_H);

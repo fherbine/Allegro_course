@@ -35,10 +35,14 @@ void    backgroundColor(int color)
     buffer = create_bitmap(SCREEN_W, SCREEN_H);
     clear_bitmap(buffer);
     rectfill(buffer, 0, 0, SCREEN_W, SCREEN_H, color);
+    blit(buffer, screen, 0, 0, 0, 0, SCREEN_W, SCREEN_H);
 }
 
 int main()
 {
+    main_init();
+    backgroundColor(makecol(255, 255, 255));
+    while (!key[KEY_ENTER]);
     return 0;
 }
 END_OF_MAIN();
